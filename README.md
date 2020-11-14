@@ -12,7 +12,7 @@ This model is then compared to an Azure AutoML run.
  **- A standard Scikit-learn Logistic Regression Model in which the hyperparameters are optimize using HyperDrive.**
  **- Performed AutoML run on the given dataset**
  
- **So, in the first case, Logistic Regression has accuracy of 91.14% with parameters max-iterations (32) and regularization-strength (0.66).**
+ **So, in the first case, Logistic Regression has accuracy of 91.14% with hyperparameters max-iterations (32) and regularization-strength (0.66).**
  **In second, the best run model is VotingEnsemble with accuracy of 91.74%.**
 
 ## Scikit-learn Pipeline
