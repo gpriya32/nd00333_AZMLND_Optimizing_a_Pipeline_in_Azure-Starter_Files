@@ -23,7 +23,7 @@ Pipeline Architecture of Scikit Learn Pipeline
 
 
 In Scikit-learn Pipeline for bank-marketing ,first of all, clean_data function perform label_encoding of data. The clean_data function converted categorical columns into numerical form. This transformed data, then splitted into training and test set in order to perform Logistic Regression.
-Logistic Regression is a binary classification algorithm(0 or 1).  It uses logistic function called the sigmoid function in order to predict outcomes. 
+Logistic Regression is a binary classification algorithm (0 or 1).  It uses logistic function called the sigmoid function in order to predict outcomes. 
 
 **Hyperparameters** are adjustable parameters that controls the model training process. Hyperparameters of logistic regression are max-iterations and regularization strength. Hyperdrive is used to tune them. **Hyperparameter tuning** is the process of finding the configuration of hyperparameters that results in the best performance. With help of hyperdrive, hyperparameters of Logistic Regression are optimized and accuracy is calculated. 
 
